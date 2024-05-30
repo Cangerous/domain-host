@@ -39,3 +39,8 @@ body {
 #bar4 {
     background-color: #15603d; /* Pastel Green */
 }
+
+.contact-text {
+    text-align: center;
+    margin-top: 20px; /* Anpassen der oberen Marge nach Bedarf */
+}
