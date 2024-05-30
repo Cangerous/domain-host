@@ -16,25 +16,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
-    height: 150px;
+    width: 130px;
+    height: 350px;
     color: #ffffff;
-    font-size: 2em;
+    font-size: 1em;
     font-weight: bold;
+    font-family: fantasy;
 }
 
 #bar1 {
-    background-color: #ff9999; /* Pastel Red */
+    background-color: ##2dc27e; /* Pastel Green */
 }
 
 #bar2 {
-    background-color: #99ccff; /* Pastel Blue */
+    background-color: #249a64; /* Pastel Green */
 }
 
 #bar3 {
-    background-color: #99ff99; /* Pastel Green */
+    background-color: #1a774c; /* Pastel Green */
 }
 
 #bar4 {
-    background-color: #ffcc99; /* Pastel Orange */
+    background-color: #15603d; /* Pastel Green */
 }
