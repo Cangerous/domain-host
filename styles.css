@@ -18,12 +18,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 130px;
-    height: 350px;
+    /* width: 130px; */
+    /* height: 350px; */
     color: #ffffff;
     font-size: 1em;
     font-weight: bold;
     font-family: fantasy;
+    padding: 10px; /* Hinzufügung: Innenabstand für die Balken */
 }
 
 #bar1 {
