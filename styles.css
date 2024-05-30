@@ -8,18 +8,18 @@ body {
 }
 
 .container {
-    display: flex;
-    flex-direction: column; /* Anpassung: Container-Inhalte vertikal anordnen */
-    align-items: center; /* Anpassung: Zentrieren der Elemente horizontal */
+    /* display: flex; */ /* Entferne diese Eigenschaft */
+    /* flex-direction: column; */ /* Entferne diese Eigenschaft */
+    /* align-items: center; */ /* Entferne diese Eigenschaft */
     gap: 5px;
 }
 
 .bar {
-    display: flex;
+    display: inline-flex; /* Ändere von "flex" zu "inline-flex" */
     justify-content: center;
     align-items: center;
-    /* width: 130px; */
-    /* height: 350px; */
+    width: 130px;
+    /* height: 350px; */ /* Entferne diese Eigenschaft */
     color: #ffffff;
     font-size: 1em;
     font-weight: bold;
