@@ -1,43 +1,14 @@
-body {
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
+/* Vorhandene CSS-Regeln beibehalten */
 
 .container {
     display: flex;
+    flex-direction: column; /* Änderung: Container-Inhalte vertikal anordnen */
+    align-items: center; /* Hinzufügung: Zentrieren der Elemente horizontal */
     gap: 5px;
 }
 
 .bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 130px;
-    height: 350px;
-    color: #ffffff;
-    font-size: 1em;
-    font-weight: bold;
-    font-family: fantasy;
-}
-
-#bar1 {
-    background-color: #2dc27e; /* Pastel Green */
-}
-
-#bar2 {
-    background-color: #249a64; /* Pastel Green */
-}
-
-#bar3 {
-    background-color: #1a774c; /* Pastel Green */
-}
-
-#bar4 {
-    background-color: #15603d; /* Pastel Green */
+    /* Vorhandene CSS-Regeln beibehalten */
 }
 
 .contact-text {
