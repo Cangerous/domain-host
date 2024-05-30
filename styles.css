@@ -1,0 +1,40 @@
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    gap: 5px;
+}
+
+.bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 150px;
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#bar1 {
+    background-color: #ff9999; /* Pastel Red */
+}
+
+#bar2 {
+    background-color: #99ccff; /* Pastel Blue */
+}
+
+#bar3 {
+    background-color: #99ff99; /* Pastel Green */
+}
+
+#bar4 {
+    background-color: #ffcc99; /* Pastel Orange */
+}
